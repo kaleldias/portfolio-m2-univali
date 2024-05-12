@@ -1,0 +1,47 @@
+body {
+    font-family: 'Work Sans';
+    margin: 0;
+}
+
+header {
+    background-color: #151515;
+    display: flex;
+    flex-direction: row;
+    height: 112px;
+    justify-content: center;
+    align-items: center;
+    column-gap:  500px;
+}
+
+header img {
+    width: 210px;
+    height: 56px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    
+}
+
+header li {
+    border: 0px solid red;
+    padding: 8px 16px;
+    
+    
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: ease-out 0.3s;
+}
+
+header a:hover {
+    color: #5cd2b9;
+    transition: ease-in 0.3s;
+}
